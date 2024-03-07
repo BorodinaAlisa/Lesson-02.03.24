@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<restaurant>
+	<name>BuzzFood</name>
+	<address>Цветной бульвар, д. 2.</address>
+	<phone>89378972341</phone>
+	<menu>Пицца, Бургер, Стейк, Тыквенный суп, Молочный коктейль</menu>
+	<tablesCount>10</tablesCount>
+	<tables>
+		<table>
+			<number>1</number>
+			<capacity>4</capacity>
+			<isReserved>false</isReserved>
+			<reservation>
+				<clientName>Алиса</clientName>
+				<date>2024-01-09</date>
+				<time>16:00</time>
+			</reservation>
+			<reservedDishes>
+				<dish>Пицца</dish>
+				<dish>Молочный коктейль</dish>
+			</reservedDishes>
+		</table>
+			<number>2</number>
+			<capacity>2</capacity>
+			<isReserved>true</isReserved>
+			<reservation>
+				<clientName>Дарья</clientName>
+				<date>2024-03-10</date>
+				<time>20:00</time>
+			</reservation>
+			<reservedDishes>
+				<dish>Стейк</dish>
+				<dish>Бургер</dish>
+		</reservedDishes>
+	</tables>
+	<clients>
+		<client>
+			<name>Алиса</name>
+			<phone>89370773784</phone>
+			<email>borodina123@mail.com</email>
+			<guestsCount>4</guestsCount>
+			<specialRequirements>Предоставить детский стул для кормления</specialRequirements>
+		</client>
+			<name>Дарья</name>
+			<phone>89871683123</phone>
+			<email>anashina67@mail.com</email>
+			<guestsCount>2</guestsCount>
+			<specialRequirements>Нет специальных требований</specialRequirements>
+	</clients>
+</restaurant>
+

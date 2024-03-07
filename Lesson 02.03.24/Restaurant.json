@@ -1,0 +1,53 @@
+{
+  "restaurant": {
+    "name": "BuzzFood",
+    "address": "Цветной бульвар, д. 2.",
+    "phone": "89378972341",
+    "menu": "Пицца, Бургер, Стейк, Тыквенный суп, Молочный коктейль",
+    "tablesCount": 10,
+    "tables": [
+      {
+        "number": 1,
+        "capacity": 4,
+        "isReserved": false,
+        "reservation": {
+          "clientName": "Алиса",
+          "date": "2024-01-09",
+          "time": "16:00"
+        },
+        "reservedDishes": [ "Пицца", "Молочный коктейль" ]
+      },
+
+      {
+        "number": 2,
+        "capacity": 2,
+        "isReserved": true,
+        "reservation": {
+          "clientName": "Дарья",
+          "date": "2024-03-10",
+          "time": "20:00"
+        },
+        "reservedDishes": [ "Стейк", "Бургер" ]
+      }
+
+    ],
+    "clients": [
+      {
+        "name": "Алиса",
+        "phone": "89370773784",
+        "email": "borodina123@mail.com",
+        "guestsCount": 4,
+        "specialRequirements": "Предоставить детский стул для кормления"
+      },
+
+      {
+        "name": "Дарья",
+        "phone": "89871683123",
+        "email": "anashina67@mail.com",
+        "guestsCount": 2,
+        "specialRequirements": "Нет специальных требований"
+      }
+
+    ]
+  }
+}
